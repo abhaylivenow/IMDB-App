@@ -16,5 +16,5 @@ interface TMDBService {
     suspend fun getPopularTvShows(@Query("api_key") apiKey: String): Response<TvShowList>
 
     @GET("person/popular")
-    suspend fun getPopularPerson(@Query("api_key") apiKey: String): Response<ArtistList>
+    suspend fun getPopularArtist(@Query("api_key") apiKey: String): Response<ArtistList>
 }

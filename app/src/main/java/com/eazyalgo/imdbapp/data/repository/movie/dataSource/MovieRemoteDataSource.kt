@@ -1,4 +1,4 @@
-package com.eazyalgo.imdbapp.data.repository
+package com.eazyalgo.imdbapp.data.repository.movie.dataSource
 
 import com.eazyalgo.imdbapp.data.model.movie.Movie
 import com.eazyalgo.imdbapp.data.model.movie.MovieList

@@ -1,7 +1,8 @@
-package com.eazyalgo.imdbapp.data.repository
+package com.eazyalgo.imdbapp.data.repository.movie.dataSourceImpl
 
 import com.eazyalgo.imdbapp.data.db.MovieDao
 import com.eazyalgo.imdbapp.data.model.movie.Movie
+import com.eazyalgo.imdbapp.data.repository.movie.dataSource.MovieLocalDataSource
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
